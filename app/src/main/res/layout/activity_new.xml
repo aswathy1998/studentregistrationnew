@@ -1,0 +1,42 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgstyle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <TextView
+    android:layout_margin="15dp"
+    android:textColor="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+       android:id="@+id/hlo"/>
+    <Button
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonstyle"
+        android:id="@+id/pfedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile Edit"/>
+    <Button
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonstyle"
+        android:id="@+id/rm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Remove Account"/>
+    <Button
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonstyle"
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"/>
+
+</LinearLayout>
